@@ -106,3 +106,9 @@ They are like a parallel realities
 	git switch <branch name>
 	git checkout <branch name>
 ```
++ ### To Merge two Branches
+	That doesn't delete the branch to merged
+```Bash
+# Note: the branch name refers to the branch that merges with the branch in which you are
+	git merge <Branch name>
+```
