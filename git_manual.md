@@ -1,6 +1,13 @@
 # Git-Manual
 
-git has tree principals trees
+git has three main trees:
++ Working directory
++ Staging area
++ Repository
+
+Notes:
++ Default Branch -> Master
++ HEAD is how we name the commit we are in
 
 # Create a Repositor #
 ```Bash
@@ -51,11 +58,19 @@ git has tree principals trees
 	git switch <branch name>
 *Create a Branch*
 	git switch -c <branch>
-*Merge in a new Branch
+*Merge in a new Branch*
 	git switch -m <Branch>
-*Return to master branch and (HEAD) commit
+*Return to master branch and (HEAD) commit*
 	git switch -
 	git switch master
 	git checkout master
 ```
+# Reset #
 
+We have *three* types of resets
+
++ *Reset soft*: This type of reset takes you to the selected commit, eliminating subsequent commits, but without modifying the Code or the workspace in any way.
+
++ *Reser mixed*: This type of reset takes you to the selected commit, eliminating the subsequent commits and the files in the staging area but without modifying the Code or the workspace in any way.
+
++ *Reset hard*: This type of reset deletes everything that happened after the selected commit to go and turns it into the new master
