@@ -97,3 +97,9 @@ They are like a parallel realities
 ```Bash
 	git branch <branch name>
 ```
++ ### To change Branches
+	As shown above to switch to a different branch:
+```Bash
+	git switch <branch name>
+	git checkout <branch name>
+```
