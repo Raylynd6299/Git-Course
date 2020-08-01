@@ -84,3 +84,15 @@ We have *three* types of resets
 ```
 
 # Branches #
+
+They are like a parallel realities
+
+## To see the Branches
+```Bash
+	git branch
+```
+
+## To create a new branch
+```Bash
+	git branch <branch name>
+```
