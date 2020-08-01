@@ -1,5 +1,7 @@
 # Git-Manual
 
+git has tree principals trees
+
 # Create a Repositor #
 ```Bash
 	git init
@@ -15,6 +17,20 @@
 	git add -A 
 ```
 # Remove a file or directory to staging area #
+```Bash
+# Files or Directorys  #
+	git restore --staged <name>
+#Files only
+	git rm --cached <file name>
+#Directories
+	git rm --cached -r <directory name>
+```
+# To restore a file that has be modified and it's not in the repository stage yet #
+```Bash
+#This file should not be in staging area
+	git restore <file name>
+```
+
 
 # Do Commits #
 ```Bash
@@ -29,7 +45,8 @@
 # Travel in Time(Commits) or Branchs  #
 ```Bash
 *Travel through commits*
-	git switch -d <ID of commit>
+	git switch -d <commit ID>
+	git checkout <commit ID>
 *switch Branch*
 	git switch <branch name>
 *Create a Branch*
@@ -39,5 +56,6 @@
 *Return to master branch and (HEAD) commit
 	git switch -
 	git switch master
+	git checkout master
 ```
 
