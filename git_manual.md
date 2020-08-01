@@ -87,12 +87,13 @@ We have *three* types of resets
 
 They are like a parallel realities
 
-## To see the Branches
++ ### To see the Branches
 ```Bash
 	git branch
 ```
 
-## To create a new branch
++ ### To create a new branch
+	The *new branch* will have all the information of the branch from where it was created
 ```Bash
 	git branch <branch name>
 ```
