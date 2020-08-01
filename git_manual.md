@@ -91,11 +91,14 @@ They are like a parallel realities
 ```Bash
 	git branch
 ```
-
 + ### To create a new branch
 	The *new branch* will have all the information of the branch from where it was created
 ```Bash
 	git branch <branch name>
+```
++ ### To delete a branch
+```Bash
+	git branch -d <branch name>
 ```
 + ### To change Branches
 	As shown above to switch to a different branch:
