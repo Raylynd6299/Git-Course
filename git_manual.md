@@ -38,6 +38,10 @@ Notes:
 	git restore <file name>
 ```
 
+# To check the differences between the committed file and modifying the file #
+```Bash
+	git diff <file name>
+```
 
 # Do Commits #
 ```Bash
