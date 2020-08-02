@@ -112,8 +112,13 @@ They are like a parallel realities
 # Note: the branch name refers to the branch that merges with the branch in which you are
 	git merge <Branch name>
 ```
+# GitHub #
+##  Upload repository to Github ##
 
-#  Upload repository to Github #
+### To set your user of GitHub in your local repository
+```Bash
+	git config credential.username "usernameInGitGub"
+```
 
 ### Create a connection point to GitHub
 ```Bash
@@ -122,4 +127,17 @@ They are like a parallel realities
 ### To see de connection point created
 ```Bash
 	git remote -v
+```
+### To Upload de local Repository to online Repository
+```Bash
+	git push -u <point-name> <name branch>
+	git push
+
+#If the Repository has changes and you dont have them in your local repository
+#That generates an error, to solve this use de following commands
+
+	git pull --allow-unrelated-histories <point-name> <branch>
+# and to you will use push normally, use the following command
+	git push --set-upstream  <point-name> <branch>
+
 ```
