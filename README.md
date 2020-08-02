@@ -3,6 +3,7 @@
 Tooos los archivos aqui escritos aparte del mismo README y el "git_manual.md", son usados como ejemplo
 
 # Git-Manual
+Esta informacion y más en el archivo [**git_manual.md**](./git_manual.md)
 
 git has three main trees:
 + Working directory
