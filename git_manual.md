@@ -112,3 +112,14 @@ They are like a parallel realities
 # Note: the branch name refers to the branch that merges with the branch in which you are
 	git merge <Branch name>
 ```
+
+#  Upload repository to Github #
+
+### Create a connection point to GitHub
+```Bash
+	git remote add <point-name> <url-to-repository-in-github>
+```
+### To see de connection point created
+```Bash
+	git remote -v
+```
