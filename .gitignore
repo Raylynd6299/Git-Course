@@ -1,3 +1,3 @@
-//Files to ignore
-Go/
-minas/
+
+./Go/
+./minas/
