@@ -4,7 +4,7 @@ Tooos los archivos aqui escritos aparte del mismo README y el "git_manual.md", s
 
 # Git-Manual
 Esta informacion y más en el archivo [**git_manual.md**](./git_manual.md)
-
+Esta extenso
 git has three main trees:
 + Working directory
 + Staging area
